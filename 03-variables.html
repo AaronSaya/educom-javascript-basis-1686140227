@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/pages.js"></script>
+    <title>03-variables.html</title>
+</head>
+<body>
+   <script>
+    ///Variables
+    let name = "Bob";
+    let payment="true";
+
+    ///Initialization
+   let count
+   count = 1;
+
+    ///Arrays
+    let beatles=["John","Paul","Ringo","George"]
+
+    ///Objects
+    let singer= {firstName: "Mick Jagger",
+                 lastName: "Jagger",
+                 band: "The Rolling Stones"}
+
+    ///Array of Objects
+    let books = [
+        {id: 1, author: "Stephen King", title:"It"},
+        {id: 2, author: "F. Scott Fitzgerald", title: "The great Gatsby"}
+    ]
+
+    ///Constants
+    const x = 10;
+    const y = 100; 
+    const addUser = () => {
+        ///a function can be a constant too!
+    }
+
+    ///Assignment
+    let z = x + y;
+
+    ///Console
+    console.log(z);
+    console.log({ SINGER:singer});
+    console.log(beatles, books);
+
+    let x = 15 + 'hello'
+    let x = 15 + 10 + 'hello'
+   </script>
+    
+    
+</body>
+</html>
