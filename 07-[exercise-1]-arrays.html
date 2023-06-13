@@ -2,17 +2,15 @@
     <head>
         <script>
         const shoppingCart = [
-        { id: 1, name: "HTML Book", price: 12.50 },
-        { id: 2, name: "CSS Book", price: 10.00 },
-        { id: 3, name: "JavaScript Book", price: 20.00 }
-    ]
+        20,15.50,35,22,14.88
+        ];
     
-     let total = 0 
-     shoppingCart.forEach( (item) => {
-        total += item.price
-     })
+        let total = 0;
+
+        shoppingCart.forEach(n => total += n);
+     
     
-     console.log(`Total: ${total}`)
+     console.log(total)
         </script>
        
     </head>
