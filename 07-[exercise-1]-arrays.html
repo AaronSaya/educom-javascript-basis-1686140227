@@ -5,10 +5,12 @@
         20,15.50,35,22,14.88
         ];
     
-        let total = 0;
+        let subtotal = 0;
 
-        shoppingCart.forEach(n => total += n);
-     
+        shoppingCart.forEach(n => subtotal += n);
+
+        total = subtotal * 0.21
+        total = total.toFixed(2)
     
        console.log(total)
         </script>
